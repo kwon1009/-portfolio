@@ -1,0 +1,37 @@
+.contents-list {
+    width: 100%;
+}
+
+.contents {
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contents:hover {
+    box-shadow: 0px 0px 5px var(--shadow-gray);
+    background-color: rgb(255, 255, 255, 0.5);
+    color: var(--font-blue);
+}
+
+.content__img {
+    background-color: lightcoral;
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.content span {
+    display: block;
+}
+
+.content__title {
+    font-weight: bold;
+}
+
+.content__tag {
+    font-size: 0.8rem;
+}
+/* tag 디자인하기 */

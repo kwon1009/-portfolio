@@ -1,0 +1,14 @@
+:root {
+    --dark-gray: #111111;
+
+    --shadow-gray: rgb(0, 0, 0, 0.1);
+    --shadow-white: rgb(255, 255, 255, 0.5);
+
+    --font-gray: #BDBDBD;
+    --font-yellow: #FFFA64;
+    --font-blue: #47A6FF;
+
+    --btn-blue: #C1D5FF;
+
+    --background-lightgray: #F7F7F7;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap');
+
+@import "variables.css";
+
+/* components */
+@import "components/profile.css";
+@import "components/contents.css";
+@import "components/icons.css";
+
+/* partials */
+@import "partials/header.css";
+@import "partials/nav.css";
+
+/* Screens */
+@import "screens/index.css";
+@import "screens/about_me.css";
+@import "screens/projects.css";
+@import "screens/contact.css";
+
+@import "screens/project.css";
+
+
+* {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* background: linear-gradient(to bottom, #f2eee5, #E5c1c5); */
+    /* background: linear-gradient(45deg, #CFE7EA, white); */
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--dark-gray);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}

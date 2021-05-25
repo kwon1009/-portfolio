@@ -1,0 +1,52 @@
+
+#index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+}
+
+#index h1 {
+    color: var(--font-gray);
+    position: relative;
+}
+
+#index i {
+    position: absolute;
+    top: 0px;
+    font-size: 12px;
+}
+
+#index .name {
+    color: white;
+    text-decoration: underline 1px solid var(--font-yellow);
+    margin-left: 5px;
+}
+
+#index .name .capital {
+    color: var(--font-yellow);
+}
+
+.home-button {
+    border-radius: 10px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.home-button:hover {
+    box-shadow: 0px 0px 10px var(--shadow-white);
+}
+
+.home-button a {
+    color: white;
+}
+
+.home-button:hover,
+.home-button:hover a:visited {
+    color: var(--font-blue);
+}
